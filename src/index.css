@@ -1,0 +1,30 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply custom body font, background, and text colors */
+body {
+  font-family: 'Inter', sans-serif; /* Default body font */
+  background-color: #F8F5F0; /* eco-off-white - soft, natural background */
+  color: #5A4A3C; /* eco-brown-dark - for default body text, warm and readable */
+}
+
+/* Custom scrollbar for a more refined aesthetic */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light track background */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8DBE98; /* eco-green-light - color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A7C59; /* eco-green-medium - darker green on hover */
+}
